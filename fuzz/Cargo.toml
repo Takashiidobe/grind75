@@ -1,0 +1,28 @@
+[package]
+name = "grind75-fuzz"
+version = "0.0.0"
+publish = false
+edition = "2021"
+
+[package.metadata]
+cargo-fuzz = true
+
+[dependencies]
+libfuzzer-sys = "0.4"
+
+[dependencies.grind75]
+path = ".."
+
+[[bin]]
+name = "two_sum"
+path = "fuzz_targets/two_sum.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "valid_parentheses"
+path = "fuzz_targets/valid_parentheses.rs"
+test = false
+doc = false
+bench = false
