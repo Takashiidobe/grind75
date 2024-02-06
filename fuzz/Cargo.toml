@@ -9,6 +9,7 @@ cargo-fuzz = true
 
 [dependencies]
 libfuzzer-sys = "0.4"
+lcrt = { version = "0.1.2", features = ["testing"] }
 
 [dependencies.grind75]
 path = ".."
@@ -23,6 +24,13 @@ bench = false
 [[bin]]
 name = "valid_parentheses"
 path = "fuzz_targets/valid_parentheses.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "merge_two_sorted_lists"
+path = "fuzz_targets/merge_two_sorted_lists.rs"
 test = false
 doc = false
 bench = false
