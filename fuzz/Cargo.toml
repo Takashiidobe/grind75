@@ -41,3 +41,10 @@ path = "fuzz_targets/best_time_to_buy_and_sell_stock.rs"
 test = false
 doc = false
 bench = false
+
+[[bin]]
+name = "valid_palindrome"
+path = "fuzz_targets/valid_palindrome.rs"
+test = false
+doc = false
+bench = false
