@@ -54,3 +54,10 @@ path = "fuzz_targets/invert_binary_tree.rs"
 test = false
 doc = false
 bench = false
+
+[[bin]]
+name = "valid_anagram"
+path = "fuzz_targets/valid_anagram.rs"
+test = false
+doc = false
+bench = false

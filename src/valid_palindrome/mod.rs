@@ -20,7 +20,6 @@ pub fn valid_palindrome(s: &str) -> bool {
 #[cfg(test)]
 mod tests {
     use super::*;
-    use pretty_assertions::{assert_eq, assert_ne};
 
     #[test]
     fn odd_len() {
