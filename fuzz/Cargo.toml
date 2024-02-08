@@ -61,3 +61,10 @@ path = "fuzz_targets/valid_anagram.rs"
 test = false
 doc = false
 bench = false
+
+[[bin]]
+name = "binary_search"
+path = "fuzz_targets/binary_search.rs"
+test = false
+doc = false
+bench = false
