@@ -1,5 +1,6 @@
 pub mod utils;
 
+pub mod balanced_binary_tree;
 pub mod best_time_to_buy_and_sell_stock;
 pub mod binary_search;
 pub mod invert_binary_tree;

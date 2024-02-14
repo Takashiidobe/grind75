@@ -68,3 +68,10 @@ path = "fuzz_targets/binary_search.rs"
 test = false
 doc = false
 bench = false
+
+[[bin]]
+name = "balanced_binary_tree"
+path = "fuzz_targets/balanced_binary_tree.rs"
+test = false
+doc = false
+bench = false
