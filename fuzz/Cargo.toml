@@ -75,3 +75,10 @@ path = "fuzz_targets/balanced_binary_tree.rs"
 test = false
 doc = false
 bench = false
+
+[[bin]]
+name = "min_stack"
+path = "fuzz_targets/min_stack.rs"
+test = false
+doc = false
+bench = false
